@@ -1,3 +1,3 @@
-task "heroku:ruby:postbuild" do
-  puts "called ruby postbuild"
+task "assets:precompile" do
+  puts "called assets:precompile"
 end
