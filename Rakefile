@@ -1,3 +1,3 @@
-task "assets:precompile" do
-  puts "JRUBY_OPTS is: #{ENV['JRUBY_OPTS']}"
+task "heroku:ruby:postbuild" do
+  puts "called ruby postbuild"
 end
